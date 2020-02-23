@@ -21,6 +21,7 @@ end
 def reverse_array(some_array, a =0 , b= -1)
   some_array[a], some_array[b] = some_array[b], some_array[a]
   return some_array
+<<<<<<< HEAD
 end
 
 def kesha_maker(some_array)
@@ -49,4 +50,6 @@ def add_s(some_array)
   some_array.each {|x| array2 << x + "s"}
   array2[1] = "feet"
   return array2
+=======
+>>>>>>> 282a3c0da28f1588fbc088db034b8a8d30b75844
 end
